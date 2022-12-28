@@ -16,12 +16,14 @@
   padding-bottom: 2em;
   padding-top: 2em;
 
-  .hero-image {
-    background-image: url('../_img/dotgov_hero.svg');
-    background-repeat: no-repeat;
-    background-position: center right;
-    padding-top: 1em;
-    padding-bottom: 1em;
+  @media all and (min-width: 768px) {
+    .hero-image {
+      background-image: url('../_img/dotgov_hero.svg');
+      background-repeat: no-repeat;
+      background-position: center right;
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
   }
   
   p {
@@ -66,9 +68,12 @@
     margin-right: 20px
   }
 
-  .learn {
-    background-image: url('../_img/dotgov_internet.svg');
-    background-repeat: no-repeat;
-    background-position: 65%;
+  @media all and (min-width: 768px) {
+    .learn {
+      background-image: url('../_img/dotgov_internet.svg');
+      background-repeat: no-repeat;
+      background-position: 65%;
+      
+    }
   }
 }
