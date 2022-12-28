@@ -3,7 +3,33 @@
   $theme-font-path: '../node_modules/@uswds/uswds/dist/fonts',
   $theme-image-path: '../node_modules/@uswds/uswds/dist/img',
   $theme-font-type-sans: 'public-sans',
-  $theme-hero-image: '../_img/hero.png'
+  $theme-hero-image: '../_img/dotgov_hero.svg'
 );
 
 @forward 'uswds';
+
+// .sign-in {
+//   // padding: 0.5em 1.5em 1.5em 1em;
+// }
+
+.sign-in-logo,
+.sign-in-logo:active,
+.sign-in-logo:visited {
+  color: color('primary-darker');
+  // font-weight: bold;
+  // margin: 0;
+  // display: inline-block;
+  // white-space: nowrap;
+  // padding: 0.85rem;
+  // padding: 0.75rem 0.5rem;
+  // text-decoration: none;
+}
+
+.sign-in-logo:hover {
+  text-decoration: underline;
+}
+
+.sign-in-logo::before {
+  content: url('../_img/login-logo.png');
+  position: left;
+}
