@@ -3,33 +3,45 @@
   $theme-font-path: '../node_modules/@uswds/uswds/dist/fonts',
   $theme-image-path: '../node_modules/@uswds/uswds/dist/img',
   $theme-font-type-sans: 'public-sans',
-  $theme-hero-image: '../_img/dotgov_hero.svg'
+  $theme-hero-image: '../_img/dotgov_hero.svg',
+  $theme-banner-background-color: 'blue-warm-80v',
+  $theme-banner-link-color: default
 );
 
 @forward 'uswds';
 
-// .sign-in {
-//   // padding: 0.5em 1.5em 1.5em 1em;
-// }
+// HERO
 
-.sign-in-logo,
-.sign-in-logo:active,
-.sign-in-logo:visited {
-  color: color('primary-darker');
-  // font-weight: bold;
-  // margin: 0;
-  // display: inline-block;
-  // white-space: nowrap;
-  // padding: 0.85rem;
-  // padding: 0.75rem 0.5rem;
-  // text-decoration: none;
+.hero {
+  background-color: color(gray-3);
+  padding-bottom: 2em;
+  padding-top: 2em;
+
+  .hero-image {
+    background-image: url('../_img/dotgov_hero.svg');
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding: 1em
+  }
+  
+  p {
+    color: color(blue-warm-80v);
+  }
 }
 
-.sign-in-logo:hover {
-  text-decoration: underline;
+.hero-heading {
+  width: 60%;
+  color: color(blue-warm-80v);
+  -webkit-font-smoothing: antialiased;
 }
 
-.sign-in-logo::before {
-  content: url('../_img/login-logo.png');
-  position: left;
+.hero-heading-callout {
+  color: color(blue-warm-80v);
+}
+
+.hero-heading-content {
+  font-weight: 400;
+  margin-bottom: 1em;
+  margin-top: 0;
+  font-size: 1rem;
 }
