@@ -11,7 +11,6 @@
 @forward 'uswds';
 
 // HERO
-
 .hero {
   background-color: color(gray-3);
   padding-bottom: 2em;
@@ -56,5 +55,20 @@
     color: white;
     font-weight: 400;
     font-size: 1.5rem;
+  }
+
+  .usa-identifier__required-link:visited, .usa-identifier__required-link.usa-link:visited {
+    color: white;
+  }
+
+  .usa-icon-list__icon .usa-icon {
+    color: white;
+    margin-right: 20px
+  }
+
+  .learn {
+    background-image: url('../_img/dotgov_internet.svg');
+    background-repeat: no-repeat;
+    background-position: 65%;
   }
 }
