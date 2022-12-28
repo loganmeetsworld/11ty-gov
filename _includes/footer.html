@@ -9,11 +9,7 @@
             mobile-lg:grid-col-6 mobile-lg:grid-gap-2
           "
         >
-          <div class="mobile-lg:grid-col-auto">
-            <a class="footer-logo media_link" href="https://get.gov">
-              {% image_with_class "./_img/dottedgov-round.svg" "width-10 height-auto" ".gov logo" %}
-            </a>
-          </div>
+          {% image_with_class "_img/dottedgov-round.svg" "usa-footer__logo-img" "dot gov registrar logo" width-10 %}
         </div>
         <div class="usa-footer__contact-links mobile-lg:grid-col-6">
           <p class="usa-footer__contact-heading">
@@ -37,13 +33,9 @@
     aria-label="Agency identifier"
   >
     <div class="usa-identifier__container">
-      <div class="usa-footer__logo">
-        <div class="mobile-lg:grid-col-auto">
-          <a class="footer-logo media_link" href="https://get.gov">
-            {% image_with_class "./_img/cisa-logo.png" "width-10 height-auto" ".gov logo" %}
-          </a>
+      <div class="usa-identifier__logos">
+        {% image_with_class "_img/cisa-logo.png" "usa-footer__logo-img" "cisa registrar logo" width-10 %}
       </div>
-    </div>
       <section
         class="usa-identifier__identity"
         aria-label="Agency description"
