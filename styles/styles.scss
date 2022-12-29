@@ -2,7 +2,7 @@
   $theme-show-notifications: false,
   $theme-font-path: '../node_modules/@uswds/uswds/dist/fonts',
   $theme-image-path: '../node_modules/@uswds/uswds/dist/img',
-  $theme-font-type-sans: 'public-sans',
+  $theme-font-type-sans: 'source-sans-pro',
   $theme-hero-image: '../_img/dotgov_hero.svg',
   $theme-banner-background-color: 'blue-warm-80v',
   $theme-banner-link-color: default
@@ -45,7 +45,7 @@
   font-weight: 400;
   margin-bottom: 1em;
   margin-top: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 // HIGHLIGHTS
@@ -78,7 +78,8 @@
       background-image: url('../_img/dotgov_internet.svg');
       background-repeat: no-repeat;
       background-position: 65%;
-      
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
     }
   }
 }
