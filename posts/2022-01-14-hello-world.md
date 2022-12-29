@@ -1,6 +1,6 @@
 ---
-title: A very long blog header that has a lot of detail but is still relevant
-description: This post has a long header
+title: We're building a new .gov registrar!
+description: We are really doing it
 layout: layouts/post
 date: 2022-01-14
 author: Abraham Lincoln

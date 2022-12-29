@@ -48,8 +48,13 @@
   font-size: 1rem;
 }
 
-// TAGLINE
-.usa-graphic-list {
+// HIGHLIGHTS
+.usa-section {
+  padding-top: 2em;
+}
+
+// DARK SECTION
+.usa-section--dark {
   .usa-graphic-list__row .usa-media-block {
     margin-bottom: 2rem;
   }
