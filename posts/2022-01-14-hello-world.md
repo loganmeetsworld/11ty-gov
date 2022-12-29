@@ -1,14 +1,16 @@
 ---
-title: We're building a new .gov registrar!
-description: We are really doing it
+excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus
+  interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui
+  suscipit rhoncus.
 layout: layouts/post
-date: 2022-01-14
-author: Abraham Lincoln
-excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus.
-image: hire-us.jpg
-image_alt_text: Hire Us
 tags:
   - posts
+title: We're building a new .gov registrar!
+author: Cameron Dixon
+date: 2022-01-14
+image: hire-us.jpg
+image_alt_text: Hire Us
+description: We are really doing it
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus.
