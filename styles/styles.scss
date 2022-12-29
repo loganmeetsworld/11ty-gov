@@ -29,6 +29,10 @@
   p {
     color: color(blue-warm-80v);
   }
+
+  .usa-button {
+    margin-top: 10px;
+  }
 }
 
 .hero-heading {
@@ -82,4 +86,11 @@
       padding-bottom: 0.5em;
     }
   }
+}
+
+// SUMMARY BOX
+
+.usa-summary-box {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

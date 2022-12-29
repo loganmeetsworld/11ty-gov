@@ -29,6 +29,11 @@ module.exports = function (config) {
     svgShortcode: 'uswds_icons'
   });
 
+  // Copy the favicon
+  config.addPassthroughCopy({
+    "favicon.ico": "favicon.ico",
+  });
+
   //// SVG Sprite Plugin for USWDS USA icons
   config.addPlugin(svgSprite, {
     path: "./node_modules/@uswds/uswds/dist/img/usa-icons",
