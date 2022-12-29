@@ -60,7 +60,7 @@ primary_navigation:
     url: /manage-domain
   - name: Help
     url: /help
-  - name: Blog
+  - name: News
     url: /blog/
   - name: About
     url: /about
